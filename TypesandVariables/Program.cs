@@ -38,14 +38,14 @@ namespace TypesandVariables
             //Console.WriteLine(appendedString);
 
             //string formatting
-            //Console.WriteLine("What is your name");
-            //string uname = Console.ReadLine();
-            //Console.WriteLine("\n what is your age");
-            //int age = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine(string.Format("Hello Mr."+uname+"and your age is"+age, uname,age));
-            //Console.WriteLine(string.Format("Hello this is string format \t"+
-            //    "Hello Mr.{0}, Welcome to the club and your age is {1}" , uname,age
-            //    ));
+            Console.WriteLine("What is your name");
+            string uname = Console.ReadLine();
+            Console.WriteLine("\n what is your age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(string.Format("Hello Mr." + uname + "and your age is" + age, uname, age));
+            Console.WriteLine(string.Format("Hello this is string format \t" +
+                "Hello Mr.{0}, Welcome to the club and your age is {1}", uname, age));
+            Console.WriteLine(string.Format($"Hello Mr.{uname}, whats your age man? i am {age}"));
             //decimal price  =2.5m;
             //Console.WriteLine(string.Format("Currency Format:{0:C2}",price));
 
